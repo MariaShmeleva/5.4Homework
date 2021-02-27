@@ -6,22 +6,6 @@ public class Book {
     private int bookNumber;
     private int bookPage;
 
-    public String getBookName() {
-        return bookName;
-    }
-
-    public String getBookAuthor() {
-        return bookAuthor;
-    }
-
-    public int getBookNumber() {
-        return bookNumber;
-    }
-
-    public int getBookPage() {
-        return bookPage;
-    }
-
     Book(String bookName, String bookAuthor, int bookNumber, int bookPage) {
         this.bookName = bookName;
         this.bookAuthor = bookAuthor;
@@ -49,6 +33,22 @@ public class Book {
     Book(String bookName, int bookPage) {
         this.bookName = bookName;
         this.bookPage = bookPage;
+    }
+
+    public String getBookName() {
+        return bookName;
+    }
+
+    public String getBookAuthor() {
+        return bookAuthor;
+    }
+
+    public int getBookNumber() {
+        return bookNumber;
+    }
+
+    public int getBookPage() {
+        return bookPage;
     }
 
     @Override
